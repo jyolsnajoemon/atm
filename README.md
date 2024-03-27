@@ -1,5 +1,18 @@
-****AIM****
+# Simple ATM System
 
-**java open ended prject sem 4**
+This Java project implements a basic Automated Teller Machine (ATM) system with core banking functionalities. Users can log in, create accounts, check balances, withdraw, deposit, and transfer funds between checking and savings accounts. The project utilizes exception handling for input validation and a HashMap to store account details.
 
-An ATM interface project using Java allows users to perform banking transactions such as checking balance, withdrawing cash, and depositing funds through a user-friendly graphical interface. The project utilizes Java programming language and GUI components to create a seamless and secure banking experience for users.
+**Features**
+
+- Login system with customer numbers and PINs
+- View balance for checking and savings accounts
+- Withdraw funds from checking and savings accounts
+- Deposit funds into checking and savings accounts
+- Transfer funds between checking and savings accounts
+- Account creation functionality
+  
+**Project Structure**
+
+1. ATM.java: Main class containing the main method to start the ATM simulation.
+2. Account.java: Class representing the user account, including balance calculations and user input handling.
+3. OptionMenu.java: Class handling the main menu, user login, and account type selection.
